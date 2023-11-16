@@ -1,0 +1,181 @@
+ body
+{
+    background-color: gainsboro;
+}
+ 
+header
+{
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+ 
+header h2
+{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+ 
+.banner {
+    width: 200px;
+}
+
+
+  
+
+
+
+#waktu {
+    font-size: 14px;
+    padding-top: 5px;
+    margin-left: 1300px;
+    color: #fff; /* Menjadikan warna teks putih */
+}
+
+#tanggal {
+    font-size: 20px;
+    color: #fff; /* Menjadikan warna teks putih */
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Gaya untuk form pesan */
+.pesan-form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Penambahan margin atas untuk memberikan jarak */
+}
+
+
+    
+            /* Gaya untuk footer */
+            .footer {
+                background-color: crimson;
+                color: #fff;
+                padding: 40px 0;
+                text-align: center;
+                clear: both;
+                padding: 15px;
+                position: relative;
+            }
+    
+            .footer-content {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                margin-bottom: 20px;
+            }
+    
+            .footer-info,
+            .footer-social,
+            .pesan-form {
+                flex: 1;
+                margin: 0 20px;
+                text-align: left; /* Align text to the left */
+            }
+
+            .footer-info h3,
+            .footer-social h3,
+            .pesan-form h3 {
+                border-bottom: 2px solid #fff;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+                text-align: left; /* Align heading text to the left */
+            }
+
+    
+            .footer-social ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                gap: 10px;
+            }
+    
+            .footer-bottom {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 15px;
+                background-color: #333;
+            }
+
+            .pesan-form {
+                background-color: crimson;
+                padding: 15px;
+                border-radius: 8px;
+                width: 100%;
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px; /* Tambahkan margin bottom */
+            }
+            
+            .pesan-form label {
+                display: block;
+                margin-bottom: 8px;
+            }
+            
+            .pesan-form input,
+            .pesan-form textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 12px;
+                border: 1px solid red;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            
+            .pesan-form textarea {
+                resize: vertical;
+            }
+            
+            .pesan-form button {
+                background-color: red; /* Mengubah warna latar belakang menjadi merah */
+                color: white; /* Warna teks diatur agar terlihat jelas di atas latar belakang merah */
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            .pesan-form button:hover {
+                background-color: orange;
+            }
+            
+            .form-menu {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+    
+            .form-menu button {
+                background-color: crimson;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                margin: 0 10px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+    
+            .form-menu button:hover {
+                background-color: orange;
+            }
